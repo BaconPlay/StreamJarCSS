@@ -1,6 +1,6 @@
-	/********/
-	/* Song */
-	/********/
+/********/
+/* Song */
+/********/
 	
 	/*	Container 	*/
 	.overlay .canvas .element[data-type='song'] > div {
@@ -13,9 +13,9 @@
 	}
 
 
-	/********/
-	/* Goal */
-	/********/
+/********/
+/* Goal */
+/********/
 	
 	/*	Container Element	*/
 	.overlay .canvas .element[data-type='goal'] > div {
@@ -42,9 +42,9 @@
 		
 	}
 	
-	/****************/
-	/* Notification */
-	/****************/
+/****************/
+/* Notification */
+/****************/
 
 	/*	Container Element	*/
 	.overlay .canvas .element[data-type='notification'] > div {
@@ -62,9 +62,9 @@
 	}
 
 	
-	/********/
-	/* Chat */
-	/********/
+/********/
+/* Chat */
+/********/
 	
 	/*	Container Element - This contains all visible messages	*/
 	.overlay .canvas .element[data-type='chat'] > .chat {
@@ -107,9 +107,9 @@
 	}
 	
 	
-	/**********/
-	/* Banner */
-	/**********/
+/**********/
+/* Banner */
+/**********/
 
 	/*	The larger portion of the banner (Content)	*/
 	.overlay .canvas .element[data-type='banner'] .inner { 
