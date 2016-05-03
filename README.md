@@ -21,7 +21,7 @@ A basic understanding of CSS is assumed.
 Documentation:
 --------------
 
-*The CSS you create should be used in the OBS Browser Window Settings*
+***The CSS you create should be used on your OBS BrowserSource Settings***
 	
 To access an element a specific path is followed. This path is similar for all overlay elements. An example full path to an element is
 
