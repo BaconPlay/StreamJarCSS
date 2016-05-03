@@ -123,3 +123,5 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 		float: right;
 	}
 	```
+
+For more examples, please visit: StreamJarCSS/examples.css
