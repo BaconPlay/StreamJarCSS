@@ -18,13 +18,22 @@ A basic understanding of CSS is assumed.
 Documentation:
 	The CSS created should be used in the OBS Browser Window Settings.
 	
-	[data-type]
-	===========
+	Data Types
+	----------
+	
 	To access an element a specific 'path' is followed. This path is similar for all overlay elements.
-	Where you encounter [data-type='dataType'] the 'dataType' in quotes, should be replaced with one of
+	Where you encounter `[data-type='dataType']` the 'dataType' in quotes, should be replaced with one of
 	the valid types listed below.
 	
-	Valid types: 'song' | 'notification' | 'goal' | 'chat' | 'banner' | 'images' | 'trigger' | 'text'
+	Valid types: 
+	* 'song' 
+	* 'notification' 
+	* 'goal' 
+	* 'chat' 
+	* 'banner' 
+	* 'images' 
+	* 'trigger' 
+	* 'text'
 	
 	
 	
@@ -34,6 +43,6 @@ Documentation:
 	overlay, they will all be changed unless given the [data-id] tag as well.
 	
 	To change a specific element siple add the [data-id] tag after the [data-type] tag. NO SPACE! For example:
-		[data-type='dataType'][data-id='dataID']
+		`[data-type='dataType'][data-id='dataID']`
 		
 	The data-id for an element can be gained using the Google Chrome console. Simply open the console with F12
