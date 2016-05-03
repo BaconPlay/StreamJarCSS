@@ -19,23 +19,29 @@ A basic understanding of CSS is assumed.
 Documentation:
 --------------
 
-
-The CSS created should be used in the OBS Browser Window Settings.
+*The CSS you create should be used in the OBS Browser Window Settings*
 	
-To access an element a specific 'path' is followed. This path is similar for all overlay elements.
-Where you encounter `[data-type='dataType']` the 'dataType' in quotes, should be replaced with one of
+To access an element a specific path is followed. This path is similar for all overlay elements. An example full path to an element is
+
+`.overlay .canvas .element[data-type='song'] .image {`
+		
+In this example, we are looking at the elements with data-type 'song'. Where you encounter 
+
+`[data-type='dataType']`
+	
+the `dataType` in quotes, should be replaced with one of
 the valid types listed below.
 
-Valid types: 
-* 'song' 
-* 'notification' 
-* 'goal' 
-* 'chat' 
-* 'banner' 
-* 'images' 
-* 'trigger' 
-* 'text'
+**Valid types:** 
 
+* `song` 
+* `notification'`
+* `goal`
+* `chat`
+* `banner`
+* `images` 
+* `trigger` 
+* `text`
 
 
 [data-id]
