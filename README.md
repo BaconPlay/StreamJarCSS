@@ -11,7 +11,7 @@ Initial lists and examples produced by Rob Aimes (IAmOmicron) - http://aimes.eu
 *Use this with caution. This is provided as an example and should only be taken as such.
 I am not responsible for your CSS. Broken overlays are your own doing!*
 
-This document gives some information on how to edit the StreamJar overlay elements with CSS
+This document gives some information on how to edit the StreamJar overlay elements with CSS.
 Some examples are provided for convinience.
 
 A basic understanding of CSS is assumed.
