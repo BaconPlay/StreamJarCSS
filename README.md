@@ -1,6 +1,8 @@
 **StreamJar Custom CSS**
 ====================
 
+![StreamJar Logo](https://pbs.twimg.com/profile_images/682624238273097728/r1wr-8_t_reasonably_small.png "StreamJar Logo")
+
 List and exaples produced by Rob Aimes (IAmOmicron) - http://aimes.eu
 
 
