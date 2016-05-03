@@ -1,4 +1,4 @@
-![StreamJar Logo](https://pbs.twimg.com/profile_images/682624238273097728/r1wr-8_t_reasonably_small.png "StreamJar Logo")
+<aside style=float: right;>![StreamJar Logo](https://pbs.twimg.com/profile_images/682624238273097728/r1wr-8_t_reasonably_small.png "StreamJar Logo")</aside>
 
 **StreamJar Custom CSS**
 ====================
