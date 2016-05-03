@@ -98,7 +98,7 @@ But, as another example. If you wish to access the album artwork on the currentl
 }
 ```
 
-I do not currently have a *full* list of the sub-elements, but click here are an incomplete list.
+I do not currently have a *full* list of the sub-elements, but **[click here for an incomplete list.](https://github.com/iamomicron/StreamJarCSS/blob/master/subelements.md)**
 
 ***
 
