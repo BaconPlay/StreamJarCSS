@@ -60,11 +60,11 @@ The data-id for an element can be gained using the Google Chrome console. Go to 
 
 Simply open the console with F12 and use the 'point at' feature using `Ctrl + Shift + C` or click it in upper left hand corner of the window. Next to 'Toggle device mode'. 
 
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/clickbutton.png" alt="StreamJar Logo"</img>
+<center><img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/clickbutton.png" alt="StreamJar Logo"</img></center>
 
 Click the element you wish to obtain the ID of and the HTML of that element should be highlighted in your console. Double click on the data-id tag to access it, and copy the long string inside. It should look similar to this and include both letters and numbers.
 
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/grabID.png" alt="StreamJar Logo"</img>
+<center><img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/grabID.png" alt="StreamJar Logo"</img></center>
 
 **NOTE: Notifications are not visible in this view, but hovering over where they would be if active will allow you to select them.**
 
@@ -131,7 +131,8 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 	to this:
 	
 	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
-
+	
+	
 * Follower Notification - Profile picture to the right:
 
 	```css
