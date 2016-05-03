@@ -5,10 +5,10 @@ List and exaples produced by Rob Aimes (IAmOmicron)
 - http://aimes.eu
 
 
-This is NOT an official release or product of StreamJar!
+**This is NOT an official release or product of StreamJar!**
 
-Use this with caution. This is provided as an example and should only be taken as such.
-I am not responsible for your CSS. Broken overlays are your own doing! 
+*Use this with caution. This is provided as an example and should only be taken as such.
+I am not responsible for your CSS. Broken overlays are your own doing! *
 
 This document gives some information on how to edit the StreamJar overlay elements with CSS
 Some examples are provided for convinience.
