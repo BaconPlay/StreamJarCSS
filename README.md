@@ -126,4 +126,4 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 	}
 	```
 
-For more examples, please visit: StreamJarCSS/examples.css
+For more examples, please visit: https://github.com/iamomicron/StreamJarCSS/blob/master/examples.css
