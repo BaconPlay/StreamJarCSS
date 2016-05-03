@@ -93,17 +93,17 @@ StreamJar is well made in that each part of the overlay has it's own class. Usin
 These are easy to access. Take what you already know and go further along the path to the element. To access the 'container' (The visible box that holds all of the content) of the element, you need to check for the parent div like this:
 
 ```css
-.overlay .canvas .element[data-type='song'] > div {
-	
-}
+	.overlay .canvas .element[data-type='song'] > div {
+		
+	}
 ```
 
 But, as another example. If you wish to access the album artwork on the currently playing song element, you do not need to access the div, as you are already inside the element. So instead, you could accomplish this like so:
 
 ```css
-.overlay .canvas .element[data-type='song'] .image {
-	
-}
+	.overlay .canvas .element[data-type='song'] .image {
+		
+	}
 ```
 
 I do not currently have a *full* list of the sub-elements, but **[click here for an incomplete list.](https://github.com/iamomicron/StreamJarCSS/blob/master/subelements.md)**
