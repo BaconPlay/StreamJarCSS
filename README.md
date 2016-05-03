@@ -3,7 +3,7 @@
 **StreamJar Custom CSS**
 ====================
 
-List and examples produced by Rob Aimes (IAmOmicron) - http://aimes.eu
+Initial lists and examples produced by Rob Aimes (IAmOmicron) - http://aimes.eu
 
 
 **This is NOT an official release or product of StreamJar!**
