@@ -1,4 +1,4 @@
-*The probably incomplete list of how to access certain sub elements for each data type in the StreamJar overlay.*
+*The incomplete list of how to access certain sub elements for each data type in the StreamJar overlay.*
 -----------------------------------------------
 
 * Goal
