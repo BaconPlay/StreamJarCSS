@@ -126,7 +126,7 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 	
 	From this:
 	
-	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo"</img>
+	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" width="383" height="105"</img>
 	
 	to this:
 	
