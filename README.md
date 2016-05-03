@@ -5,8 +5,9 @@
 
 Initial lists and examples produced by Rob Aimes (IAmOmicron) - http://aimes.eu
 
-
 **This is NOT an official release or product of StreamJar!**
+
+**As this is unofficial, this method may stop working at any time.**
 
 *Use this with caution. This is provided as an example and should only be taken as such.
 I am not responsible for your CSS. Broken overlays are your own doing!*
