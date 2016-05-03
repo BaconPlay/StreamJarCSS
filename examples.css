@@ -1,103 +1,122 @@
-.overlay .canvas .element[data-type='song'] > div {
-		border-top-right-radius: 150px;
+	/********/
+	/* Song */
+	/********/
+	
+	/*	Container 	*/
+	.overlay .canvas .element[data-type='song'] > div {
+		
 	}
 
+	/*	Album artwork / image	*/
 	.overlay .canvas .element[data-type='song'] .image {
-		border-radius: 50px;
-		box-shadow: none;
+		
 	}
 
+
+	/********/
+	/* Goal */
+	/********/
+	
+	/*	Container Element	*/
 	.overlay .canvas .element[data-type='goal'] > div {
-		border-bottom-right-radius: 150px;
-		box-shadow: none;
+		
 	}
 
+	/*	Goal Name	*/
 	.overlay .canvas .element[data-type='goal'] h3 {
-		position: relative;
-		float: right;
-		right: 150px;
-		top: 40px;
+		
 	}
 
+	/*	Incomplete Progress Bar	*/
 	.overlay .canvas .element[data-type='goal'] .bar {
-		border-bottom-right-radius: 150px;
-		position: relative;
-		top: -10px;
+		
 	}
-
-	.overlay .canvas .element[data-type='goal'] .data {
-
-	}
-
-	.overlay .canvas .element[data-type='goal'] .data .percentage {
-		position: relative;
-		right: 10px;
-	}
-
+	
+	/*	Current Progress Bar	*/
 	.overlay .canvas .element[data-type="goal"] .bar .progress {
 
 	}
+	
+	/*	Percentage Complete (Text)	*/
+	.overlay .canvas .element[data-type='goal'] .data .percentage {
+		
+	}
+	
+	/****************/
+	/* Notification */
+	/****************/
 
-	.overlay .canvas .element[data-type='notification'][data-id='3cbd7802-129e-4524-8a8e-09f3e74740a5'] > div {
-		border-bottom-left-radius: 200px;
-		box-shadow: none;
+	/*	Container Element	*/
+	.overlay .canvas .element[data-type='notification'] > div {
+		
 	}
 
-	.overlay .canvas .element[data-type='notification'][data-id='3cbd7802-129e-4524-8a8e-09f3e74740a5'] > div .image {
-		float: right;
-	}
-
-	.overlay .canvas .element[data-type='notification'][data-id='22cd9f26-26e5-4329-93fe-55db7ce5a04d'] > div {
-		border-radius: 200px;
-		box-shadow: none;
-	}
-
+	/*	Follower / Sub / Donation Image	*/
 	.overlay .canvas .element[data-type='notification'] > div .image {
-		border-radius: 60px;
+		
 	}
 
+	/*	Follower / Sub / Donation Image using a data-id	*/
+	.overlay .canvas .element[data-type='notification'][data-id=''] > div .image {
+		
+	}
+
+	
+	/********/
+	/* Chat */
+	/********/
+	
+	/*	Container Element - This contains all visible messages	*/
 	.overlay .canvas .element[data-type='chat'] > .chat {
 
 	}
 
+	/*	Individual Messages	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div {
-		border-top-left-radius: 15px;
-		border-bottom-left-radius: 15px;
-		margin-top: 10px;
+		
 	}
 
+	/*	Individual Messages, by platform (Beam)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='beam'] {
-		background-color: rgba(36,32,95, 0.6);
-		border-right: 5px solid #24205F;
-		border-left: 5px solid #24205F;
+		
 	}
 
+	/*	The name of the message sender, by platform (Beam)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='beam'] .name {
-		color: #3594FF;
-		text-shadow: none;
+		
 	}
-
+	
+	/*	The icon in the message, by platform (Beam)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='beam'] .icon {
-		color: #3594FF;
+		
 	}
 
+	/*	Individual Messages, by platform (Twitch)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] {
-		background-color: rgba(100,65,165, 0.6);
-		border-right: 5px solid #6441A5;
-		border-left: 5px solid #6441A5;
-		color: white;
-		border-left: 
+		
 	}
 
+	/*	The name of the message sender, by platform (Twitch)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .name {
-		color: #3594FF;
-		text-shadow: none;
+		
 	}
 
+	/*	The icon in the message, by platform (Twitch)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .icon {
-		color: #3594FF;
+		
 	}
+	
+	
+	/**********/
+	/* Banner */
+	/**********/
 
-	.overlay .canvas .element[data-type='banner'] .inner, .overlay .canvas .element[data-type='banner'] .title {
+	/*	The larger portion of the banner (Content)	*/
+	.overlay .canvas .element[data-type='banner'] .inner { 
 
+	}
+	
+	/*	The smaller portion of the banner (Title)	*/
+	.overlay .canvas .element[data-type='banner'] .title {
+		
 	}
