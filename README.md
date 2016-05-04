@@ -163,8 +163,6 @@ So as an example, we can now change the background colour of messages for each s
 	}
 ```
 
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatBefore.png" alt="before" </img>
-
 We now have a cyan background for Beam messages, and a magenta background for Twitch messages. But, seeing as our text is white we cannot see the messages very clearly. The sender's name, the message and the icon colours can also be changed. To do this, just access the `.name`, `.msg` and `.icon`. Here's an example:
 
 ```css
@@ -175,9 +173,9 @@ We now have a cyan background for Beam messages, and a magenta background for Tw
 	}
 ```
 
-And here's what we have after setting all 3 to black.
+Before: |--------------------------------------------| After:
 
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatAfter.png" alt="after"</img>
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatBefore.png" height="75" width="300" alt="before" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatAfter.png" height="75" width="300" alt="after"</img>
 
 ***
 
@@ -194,14 +192,10 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 		box-shadow: none;
 	}
 ```
+
+Before: |------------------------------------------------------------| After:
 	
-From this:
-
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" </img>
-
-to this:
-
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
 	
 	
 **Follower Notification - Profile picture to the right:**
@@ -212,12 +206,8 @@ to this:
 	}
 ```
 	
-From this:
+Before: |--------------------------------------------| After:
 
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiBefore.png" alt="before" </img>
-	
-to this:
-
-<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiAfter.png" alt="after"</img>
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiBefore.png" width="300" height="65" alt="before" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiAfter.png" width="300" height="65" alt="after"</img>
 
 For more examples, please visit: https://github.com/iamomicron/StreamJarCSS/blob/master/examples.css
