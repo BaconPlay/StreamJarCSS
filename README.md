@@ -17,7 +17,9 @@ Some examples are provided for convinience.
 
 A basic understanding of CSS is assumed.
 
----
+
+***
+
 
 Documentation:
 --------------
@@ -89,7 +91,7 @@ or
 Down to Specifics
 -----------------
 
-StreamJar is well made in that each part of the overlay has it's own class. Using the above examples again; The album art, song name, artist title and the container that holds everything, are all separate.
+StreamJar is well made in that each part of the overlay has it's own class. Using the song examples again; The album art, song name, artist title and the container that holds everything, are all separate.
 
 These are easy to access. Take what you already know and go further along the path to the element. To access the 'container' (The visible box that holds all of the content) of the element, you need to check for the parent div like this:
 
@@ -109,10 +111,75 @@ But, as another example. If you wish to access the album artwork on the currentl
 
 I do not currently have a *full* list of the sub-elements, but **[click here for an incomplete list.](https://github.com/iamomicron/StreamJarCSS/blob/master/subelements.md)**
 
+
+
+!important
+----------
+
+Some elements in streamjar have their style set inline, via HTML. When this is the case, the !important tag may be required for your custom CSS to take effect. A telltale example of how you know when to use this, is when you set CSS on an element and the CSS does not take effect. If certain changes did not take effect when you expected a change, you most likely need to use the `!important` tag.
+
+An example of something that now requires this, is the `.chat . messages > div` element when setting the background colour. Take the below code that assigns a cyan background to the 'beam' messages.
+
+```css
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div {
+		background-color: rgb(0, 255, 255);
+	}
+```
+
+Where you have the line `background-color:` to set the background colour, simply add the `!important` tag before the line end. The code should now look similar to below, and should also now correctly apply the CSS:
+
+```css
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div {
+		background-color: rgb(0, 255, 255) !important;
+	}
+```
+
+
+[data-platform] & .chat
+---------------
+
+When using the StreamJar chat overlay, each message has a `[data-platform]` tag applied to it's div element. This allows you to set CSS for messages on a per-service basis. For example, you can have 1 colour theme assigned to Beam messages, and another to Twitch messages. The `[data-platform]` tag is currently only used on the chat messages, so this is a very specific tag. We will be following the same example as above.
+
+Now, remember that `!important` tag we talked about no less than a couple of minutes ago? We need that now. The background colour for the chat messages is set inline, therefore we need the `!important` tag to make sure our CSS is the style that is applied.
+
+There are currently 3 chat services support by StreamJar. Beam, Twitch and Hitbox. Each of these can be accessed using the `[data-platform]` tag. Here is what you need:
+
+* Beam - `[data-platform='beam']`
+* Twitch - `[data-platform='twitch']`
+* Hitbox - `[data-platform='hitbox']`
+
+So as an example, we can now change the background colour of messages for each service. This is accomplished by using the example above, and adding the `[data-platform]` tag to the element we are changing:
+
+```css
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='beam'] {
+		background-color: rgb(0, 255, 255) !important;
+	}
+	
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] {
+		background-color: rgb(255, 0, 255) !important;
+	}
+```
+
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatBefore.png" alt="before" </img>
+
+We now have a cyan background for Beam messages, and a magenta background for Twitch messages. But, seeing as our text is white we cannot see the messages very clearly. The sender's name, the message and the icon colours can also be changed. To do this, just access the `.name`, `.msg` and `.icon`. Here's an example:
+
+```css
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .name,
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .msg,
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .icon {
+		color: #000000; /* Black text */
+	}
+```
+
+And here's what we have after setting all 3 to black.
+
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatAfter.png" alt="after"</img>
+
 ***
 
-Examples
---------
+Other Examples
+--------------
 
 Using this knowledge you can now (hopefully) access any StreamJar element. Here are a couple of examples I use in my CSS.
 
@@ -141,5 +208,13 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 		float: right;
 	}
 	```
+	
+	From this:
+	
+	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiBefore.png" alt="before" </img>
+	
+	to this:
+	
+	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiAfter.png" alt="after"</img>
 
 For more examples, please visit: https://github.com/iamomicron/StreamJarCSS/blob/master/examples.css
