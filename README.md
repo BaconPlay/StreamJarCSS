@@ -197,6 +197,7 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 	
 <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
 	
+***
 	
 **Follower Notification - Profile picture to the right:**
 
