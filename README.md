@@ -142,7 +142,7 @@ When using the StreamJar chat overlay, each message has a `[data-platform]` tag 
 
 Now, remember that `!important` tag we talked about no less than a couple of minutes ago? We need that now. The background colour for the chat messages is set inline, therefore we need the `!important` tag to make sure our CSS is the style that is applied.
 
-There are currently 3 chat services support by StreamJar. Beam, Twitch and Hitbox. Each of these can be accessed using the `[data-platform]` tag. Here is what you need:
+There are currently 3 chat services currently supported by StreamJar. Beam, Twitch and Hitbox. Each of these can be accessed using the `[data-platform]` tag. Here is what you need:
 
 * Beam - `[data-platform='beam']`
 * Twitch - `[data-platform='twitch']`
