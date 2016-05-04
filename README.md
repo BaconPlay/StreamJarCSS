@@ -18,7 +18,7 @@ Some examples are provided for convinience.
 A basic understanding of CSS is assumed.
 
 * [Examples](https://github.com/iamomicron/StreamJarCSS/blob/master/examples.css)
-* [(Incomplete) List of elements/classes](https://github.com/iamomicron/StreamJarCSS/blob/master/subelements.md)
+* [List of elements/classes (Incomplete)](https://github.com/iamomicron/StreamJarCSS/blob/master/subelements.md)
 
 
 ***
