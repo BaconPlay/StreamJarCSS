@@ -1,3 +1,12 @@
+/*
+The examples in this file are all blank. They are more of a template.
+They only provide the elements and no CSS changes.
+
+Examples / Template created by Rob Aimes (IAmOmicron)
+Website: http://aimes.eu/
+*/
+
+
 /********/
 /* Song */
 /********/
@@ -90,6 +99,11 @@
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='beam'] .icon {
 		
 	}
+	
+	/*	The actual message that was sent, by platform (Beam)	*/
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='beam'] .msg {
+		
+	}
 
 	/*	Individual Messages, by platform (Twitch)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] {
@@ -100,9 +114,34 @@
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .name {
 		
 	}
+	
+	/*	The actual message that was sent, by platform (Twitch)	*/
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .msg {
+		
+	}
 
 	/*	The icon in the message, by platform (Twitch)	*/
 	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='twitch'] .icon {
+		
+	}
+	
+	/*	Individual Messages, by platform (Hitbox)	*/
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='hitbox'] {
+		
+	}
+
+	/*	The name of the message sender, by platform (Hitbox)	*/
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='hitbox'] .name {
+		
+	}
+	
+	/*	The actual message that was sent, by platform (Hitbox)	*/
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='hitbox'] .msg {
+		
+	}
+
+	/*	The icon in the message, by platform (Hitbox)	*/
+	.overlay .canvas .element[data-type='chat'] > .chat > .messages > div[data-platform='hitbox'] .icon {
 		
 	}
 	
