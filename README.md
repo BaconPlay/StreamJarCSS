@@ -173,7 +173,7 @@ We now have a cyan background for Beam messages, and a magenta background for Tw
 	}
 ```
 
-Before: |--------------------------------------------| After:
+**Before: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After:**
 
 <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatBefore.png" height="75" width="300" alt="before" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/chatAfter.png" height="75" width="300" alt="after"</img>
 
@@ -193,7 +193,7 @@ Using this knowledge you can now (hopefully) access any StreamJar element. Here 
 	}
 ```
 
-Before: |------------------------------------------------------------| After:
+**Before: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; After:**
 	
 <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
 	
@@ -206,7 +206,7 @@ Before: |------------------------------------------------------------| After:
 	}
 ```
 	
-Before: |--------------------------------------------| After:
+**Before: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After:**
 
 <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiBefore.png" width="300" height="65" alt="before" </img> <img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiAfter.png" width="300" height="65" alt="after"</img>
 
