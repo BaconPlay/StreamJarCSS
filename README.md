@@ -17,6 +17,9 @@ Some examples are provided for convinience.
 
 A basic understanding of CSS is assumed.
 
+* [Examples](https://github.com/iamomicron/StreamJarCSS/blob/master/examples.css)
+* [(Incomplete) List of elements/classes](https://github.com/iamomicron/StreamJarCSS/blob/master/subelements.md)
+
 
 ***
 
@@ -183,38 +186,38 @@ Other Examples
 
 Using this knowledge you can now (hopefully) access any StreamJar element. Here are a couple of examples I use in my CSS.
 
-* Rounded album artwork:
+**Rounded album artwork:**
 
-	```css
-		.overlay .canvas .element[data-type='song'] .image {
-			border-radius: 50px;
-			box-shadow: none;
-		}
-	```
+```css
+	.overlay .canvas .element[data-type='song'] .image {
+		border-radius: 50px;
+		box-shadow: none;
+	}
+```
 	
-	From this:
-	
-	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" </img>
-	
-	to this:
-	
-	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
-	
-	
-* Follower Notification - Profile picture to the right:
+From this:
 
-	```css
-		.overlay .canvas .element[data-type='notification'][data-id=''] > div .image {
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artBefore.png" alt="StreamJar Logo" </img>
+
+to this:
+
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/artAfter.png" alt="StreamJar Logo"</img>
+	
+	
+**Follower Notification - Profile picture to the right:**
+
+```css
+	.overlay .canvas .element[data-type='notification'][data-id=''] > div .image {
 		float: right;
 	}
-	```
+```
 	
-	From this:
+From this:
+
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiBefore.png" alt="before" </img>
 	
-	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiBefore.png" alt="before" </img>
-	
-	to this:
-	
-	<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiAfter.png" alt="after"</img>
+to this:
+
+<img src="https://raw.githubusercontent.com/iamomicron/StreamJarCSS/master/images/notiAfter.png" alt="after"</img>
 
 For more examples, please visit: https://github.com/iamomicron/StreamJarCSS/blob/master/examples.css
